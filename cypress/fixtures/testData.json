@@ -1,0 +1,19 @@
+{
+  "pageTitleContains": "Telnyx",
+  "headerNavItems": ["Products", "Solutions", "Pricing", "Why Telnyx", "Resources", "Developers"],
+  "contactPageHeading": "Talk to an expert",
+  "loginHrefPart": "portal.telnyx.com",
+  "signUpHrefPart": "/sign-up",
+  "footerLinks": {
+    "privacyPolicy": "/privacy-policy",
+    "termsAndConditions": "/terms-and-conditions"
+  },
+  "socialLinks": {
+    "linkedIn": "linkedin.com/company/telnyx",
+    "twitter": "x.com/telnyx",
+    "facebook": "facebook.com/Telnyx"
+  },
+  "spanishLanguageOption": "Spanish",
+  "spanishTranslation": "agentes de IA de voz",
+  "spanishUrlPart": "/es/products/voice-ai-agents"
+}

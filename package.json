@@ -1,0 +1,21 @@
+{
+  "name": "telnyx-cypress-tests",
+  "version": "1.0.0",
+  "description": "Cypress UI test automation suite for telnyx.com (public pages only)",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run",
+    "test:chrome": "cypress run --browser chrome",
+    "test:mobile": "cypress run --config-file cypress.mobile.config.js",
+    "test:record": "cypress run --record",
+    "report:clean": "rimraf cypress/reports cypress/screenshots cypress/videos"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^13.13.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "rimraf": "^5.0.5"
+  }
+}
