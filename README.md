@@ -18,13 +18,13 @@ Automated testing of Telnyx public web pages using Cypress. The project is fully
    ```bash
    npm install
 
-    Open Cypress Test Runner (UI Mode):
-    Bash
+Open Cypress Test Runner (UI Mode):
+    
 
     npm run cy:open
 
-    Run All Tests in Console (Headless Mode):
-    Bash
+Run All Tests in Console (Headless Mode):
+    
 
     npm run cy:run:headless
 
@@ -33,7 +33,7 @@ Test Reporting
 To generate detailed local HTML test reports using cypress-mochawesome-reporter:
 
 Run the report generation script:
-    Bash
+    
 
     npm run cy:run:report
 
